@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+  <meta charset="utf-8" />
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rubyclerks, th ehelp you need</title>
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="./js/bootstrap/css/bootstrap-responsive.min.css" />	
+	<!-- Includes FontAwesome -->
+	<link rel="stylesheet" href="./css/font-awesome/css/font-awesome.min.css" />
+	<!-- Font Include -->
+	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,100,100italic,300italic,500,700' rel='stylesheet' type='text/css'>
+	<!-- Included Bootstrap Customization CSS Files -->	
+	<link rel="stylesheet" href="./css/bootstrap-extension.css" />
+	<link rel="stylesheet" href="./css/carousel-custom-01.css" />
+	
+	<!-- Website CSS Theme Css -->	
+	<link rel="stylesheet" href="./css/stylesheet.css" />
+
+</head>
+<body>
+
+
+<div class="navbar effect navbar-inverse navbar-fixed-top">
+	<div class="navbar-inner">
+		<div class="container">
+			<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse" href="#">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</a>
+			<div class="nav-collapse">
+				<ul class="nav">
+					<li class="link1 active">
+						<a href="index.html">Home</a>
+					</li>
+					<li class="link2">
+						<a href="services.html">Services</a>
+					</li>
+					<li class="link4">
+						<a href="aboutus.html">About Us</a>
+					</li>
+					<li class="link5">
+						<a href="contactus.html">Contact Us</a>
+					</li>
+          <!--
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Various Pages <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="404.html">404</a></li>
+							<li><a href="faq.html">FAQ</a></li>
+						</ul>
+					</li>
+            -->
+				</ul>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="content">
+	<div class="container theme">
+		<!-- Pay Off -->
+		<div class="row center vspace10">
+			<div class="span12">
+				<h1><span>Rubyclerks - all the help you need to run your shop</span></h1>
+				<p>A simple but comprehensive aproach to managing a small buisness</p>
+			</div>
+		</div>
+		<!-- /Pay Off -->
+		<!-- Content -->
+		<div class="row vspace30">
+			<div class="span6">
+				<h2 class="center green white">Business solution</h2>
+				<div>
+					<p>
+            Rubyclerks is a system to manage a <em>small buisness</em>. 
+            After using other systems for a long time, rubyclerk was written by a small buisness owner
+            to provide exactly what a small buisness needs, in an understandable concise form.
+          </p>
+					<p>It is intended for people statrting out or running a small buisness where there never enough people and things have to be done efficiently.
+					</p>
+          <p> Rubyclerks provides the tools needed for this. 
+            It allows you to manage products, ie buy, sell them and keep track of them. More precisely 
+            there is a backend to greate product and with them orders (selling) but also purchase orders
+            for buying.
+          </p>
+          <p>
+            Rubyclerks is itself small, but extensible, and open. We have a (small) list of extensions, like reporting and POS, and are happy to accept more.
+          </p>
+          <p>
+            The basic core modules are listed below.
+          </p>
+				</div>
+			</div>
+			<div class="span6">
+				<h2 class="center pink white">Simple but Comprehensive</h2>
+				<div>
+					<p>Simple is a much misunderstood concept often mistaken for simplistic. Simple means lack of complication, unneccessary clutter. Rubyclerks sticks to what a small buisness needs and lets others or modules extend this.</p>
+					<p> Comprehensive means dealing with everything neccessary, and this off course only sensible within a scope. Our scope is the small buisness. Small is a few thousand products and max tens of thousand of orders a year.
+					</p>
+          <p>
+            We understand comprehensive to mean that RubyClerks is the only server tool needed to run
+             the buisness. 
+             The system allows both online and offline selling and facillitates simple stock control. 
+          </p>
+					<p>For a more complete list of what RubyClerks is and is not look <a href="about.html">here</a>
+          </p>
+          
+				</div>
+			</div>
+		</div>
+
+		<div class="row vspace20">
+			<div class="span4">
+				<h2 class="lightblue white center">Office clerk</h2>
+				<p>
+				  The office clerk, the core of the system, provides the back-office functionality. It allows you 
+          to manage your products (prices,ean..), and organise them in groups. Simple ProductLine
+          functionality is included. It allows you to sell these products by creating orders that can be 
+          shipped to customers.
+				</p>
+        <p>
+          The system assumes you have only one storage and the way you add stock is by receiving 
+          your own orders. Thus you can can create purchase orders from suppliers and receive them.
+        </p>
+			</div>
+
+			<div class="span4">
+				<h2 class="lightblue white center">Online Clerk</h2>
+				<p>
+          This is the basis for your web-shop. Basic functionality around products, cart and
+          login is included. But not payment or advanced shipping. Also this is meant to be used in
+          one (european) country, in one language. 
+        </p>
+        <p>
+          In technical terms, the office clerk is a gem, a rails engine actually, 
+          but the online clerk a repository. You (a developer) are meant to clone the online clerk
+          and change the appearance and workings to how you want your store to look and feel. 
+          The office clerk is something that should stay as is and hopefully benefit from improvements
+          that you and others make. 
+        </p>
+			</div>
+
+			<div class="span4">
+				<h2 class="lightblue white center">Sales clerk and more</h2>
+				<p>
+          The sales clerk is what is normally called POS, a point of sales system. It provides 
+          a fast clean checkout with external payment and without shipment. 
+        </p>
+        <p>
+          It is assumed that your products have barcodes, either ean13 or your own. Also it is assumed
+           that your sales person uses a bar scanner and that you will print a receipt. 
+           The "normal" checkout happens with just one click (printing).  
+        </p>
+        <p>
+          If your products do not have barcodes, a barcode generater is included so you can print 
+          your own codes.
+        </p>
+        <p>
+          Additionlly a Reporting clerk, provides basic reporting to aid a shop owner in purchasing. 
+          Hopefully many more modules will provide extra functionality in the future.
+        </p>
+			</div>
+		</div>
+
+		<!-- /Content -->
+
+	</div>
+</div>
+
+<footer id="footer">
+	<div id="post-footer">
+		<div class="container">		
+			<div class="row center">
+				<div class="span12">
+					<div class="vspace10">
+						<p>&copy; Copyright 2013.</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<!-- Privacy Modal -->
+<div id="privacy" class="modal hide fade theme" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+    <h3>Privacy Policy</h3>
+  </div>
+  <div class="modal-body center">
+    <div class="alert">
+    	<strong>Our privacy policy</strong> Oit card information, financial information, and other personal information necessary to generate proper legal documents.
+    </div>
+  </div>
+  <div class="modal-footer">
+    <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+  </div>
+</div>
+
+<a class="scrolltotop" href="#"></a>
+
+<script src="./js/jquery-1.8.3.min.js" type="text/javascript"></script>
+<script src="./js/bootstrap/js/bootstrap.min.js"></script>
+<script src="./js/script.js"></script>
+
+</body>
+</html>

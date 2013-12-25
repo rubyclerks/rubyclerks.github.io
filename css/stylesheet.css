@@ -1,0 +1,339 @@
+body {
+	font: 300 13px/1.4 "Roboto",Arial,sans-serif;
+  text-rendering: optimizelegibility;
+  margin-top: 50px;
+	/*background: #FCFCFC url(../img/pattern.png) top left repeat;*/
+}
+
+a {
+	color: #666666;
+}
+
+a:hover {
+	color: #000000;
+}
+
+blockquote {
+    border-color: #999999;
+}
+
+blockquote p {
+  font-size: 15px !important;
+  line-height: 1.25;
+}
+
+hr {
+  /*border: 1px solid #DDDDDD;*/
+}
+
+.content {
+  margin-bottom: 50px;
+}
+
+#footer {
+  background-color: #FFFFFF;
+	color: #666666;
+}
+
+#post-footer {
+  padding: 10px 0;
+  background-color: #FFFFFF;
+}
+
+/*******************************
+    Twitter Bootstrap Override 
+********************************/
+.wrapper {
+	margin: 0 auto;
+	padding: 0 30px;
+  -moz-box-sizing: border-box;
+  background: none repeat scroll 0 0 #FFFFFF;
+  box-shadow: 5px 0 2px rgba(100, 100, 100, 0.1), -2px 0 2px rgba(100, 100, 100, 0.1);
+}
+
+.label, .badge {
+  padding: 4px 6px;
+  border-radius: 0;
+}
+
+.navbar.navbar-inverse .navbar-inner {
+    background: none;
+    background-color: #FFFFFF;
+    border: none;
+    box-shadow: none;
+}
+
+.navbar .nav > li > a {
+    color: #555555;
+    padding: 15px 20px;
+    text-shadow: none;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+
+.navbar .nav > li > a:hover {
+  color: #000000;
+}
+
+.navbar-inverse .nav .link1.active > a, 
+.navbar-inverse .nav .link1.active > a:hover, 
+.navbar-inverse .nav .link1.active > a:focus {
+    background-color: #00DEF5;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav .link2.active > a, 
+.navbar-inverse .nav .link2.active > a:hover, 
+.navbar-inverse .nav .link2.active > a:focus {
+    background-color: #C1D739;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav .link3.active > a, 
+.navbar-inverse .nav .link3.active > a:hover, 
+.navbar-inverse .nav .link3.active > a:focus {
+    background-color: #9B95D4;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav .link4.active > a, 
+.navbar-inverse .nav .link4.active > a:hover, 
+.navbar-inverse .nav .link4.active > a:focus {
+    background-color: #EF648D;
+    border-bottom: 1px solid #EF648D;
+    box-shadow: none;
+}
+
+.navbar-inverse .nav .link5.active > a, 
+.navbar-inverse .nav .link5.active > a:hover, 
+.navbar-inverse .nav .link5.active > a:focus {
+    background-color: #1581F5;
+    border-bottom: 1px solid #1581F5;
+    box-shadow: none;
+}
+
+.navbar .nav > li > .dropdown-menu:after {
+    border: none;
+}
+
+.nav-pills > .active > a, 
+.nav-pills > .active > a:hover {
+    color: #000000;
+    background-color: #F1F1F1;
+    border-radius: 0;
+    padding: 8px 18px;
+}
+
+.navbar-inverse .nav li.dropdown.open > .dropdown-toggle, .navbar-inverse .nav li.dropdown.active > .dropdown-toggle, .navbar-inverse .nav li.dropdown.open.active > .dropdown-toggle {
+    background-color: #FFFFFF;
+    color: #666666;
+  }
+
+.dropdown-menu {
+    background-clip: padding-box;
+    background-color: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 0 0 0 0;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    display: none;
+    float: left;
+    left: -1px;
+    list-style: none outside none;
+    margin: -1px 0 0;
+    min-width: 160px;
+    padding: 10px 18px;
+    position: absolute;
+    top: 100%;
+    z-index: 1000;
+}
+
+.dropdown-menu li > a {
+    clear: both;
+    color: #666666;
+    display: block;
+    font-weight: normal;
+    line-height: 20px;
+    padding: 3px 3px;
+    white-space: nowrap;
+    text-transform: capitalize;
+}
+
+.dropdown-menu li>a:hover,
+.dropdown-menu li>a:focus,
+.dropdown-submenu:hover>a { 
+  color: #333333;
+	text-decoration: none;
+	background-color: transparent;
+	background-image: none;
+}
+
+.well {
+  border:1px solid #D9D9D9;
+  box-shadow:#D6D6D6 0 0 7px -1px;
+  position: relative;
+}
+
+.btn-right-space {
+  margin: 5px;
+}
+
+/*******************************
+             Theme 
+********************************/
+.theme {
+  color: #5A5A5A;
+}
+
+.theme h1 {
+  font-size:50px;
+  font-weight:200;
+  letter-spacing:-1px;
+  line-height:1;
+  margin:10px 0 10px;
+  color: #666666;
+}
+
+.theme h1 span {
+
+}
+
+.theme h2,
+.theme h3 {
+  font-weight:200;
+  margin-bottom:5px;
+}
+
+.theme .theme-byline {
+  color:#999999;
+  font-size:20px;
+  font-weight:300;
+  line-height:1.25;
+  margin-bottom:40px;
+}
+
+.theme p {
+  font-size:15px;
+  line-height:1.5;
+}
+
+.theme img {
+	margin: 5px auto;
+}
+
+.lightgrey {
+  background-color: #E1E1E1;
+}
+
+.btn-theme {
+  background-color: #222222;
+  border: medium none;
+  color: #FFFFFF;
+  display: block;
+  font-size: 18px;
+  padding: 10px 15px;
+  text-align: center;
+  transition: all 0.2s linear 0s;
+}
+
+.btn-theme:hover,
+.btn-theme-small:hover {
+	text-decoration: none;
+	background-color: #333333;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.btn-theme-small {
+  background-color: #192C47;
+  border: medium none;
+  border-radius: 4px 4px 4px 4px;
+  color: #FFFFFF;
+  display: block;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px 12px;
+  text-align: center;
+  transition: all 0.2s linear 0s;
+}
+
+.modal-container {
+  width: 72%;
+  margin: 0 auto;
+}
+
+.scrolltotop {
+  background: url("../img/scroll-up.png") no-repeat scroll center top transparent;
+  display: none;
+  height: 42px;
+  position: fixed;
+  right: 2%;
+  top: 50%;
+  width: 42px;
+  z-index: 33;
+}
+
+.service:hover {
+  webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+}
+
+.service:hover {
+  webkit-transition:all 0.3s ease-in-out;
+  transition:all 0.3s ease-in-out;
+  opacity: 0.9;
+}
+
+.circle {
+  display: block;
+  -webkit-transition:all 0.3s;
+  border-bottom-left-radius:100%;
+  border-bottom-right-radius:100%;
+  border-top-left-radius:100%;
+  border-top-right-radius:100%;
+  cursor:pointer;
+  height:180px;
+  margin-right:-45px;
+  text-align:center;
+  transition:all 0.3s;
+  width:180px;
+}
+
+.circle i {
+  color: #FFFFFF;
+  padding: 58px 0;
+  height: auto;
+  vertical-align:middle;
+  display: block;
+}
+
+.four0four {
+  color:#999999;
+  font-size:180px;
+  line-height:190px;
+}
+
+/* COLORS */
+.pink {
+  background-color: #EF648D;
+}
+
+.purple {
+  background-color: #9B95D4;
+}
+
+.lightblue {
+  background-color: #00DEF5;
+}
+
+.blue {
+  background-color: #1581F5;
+}
+
+.green {
+  background-color: #C1D739;
+}
+
+.white {
+  color: #FFFFFF;
+}
