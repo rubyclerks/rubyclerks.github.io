@@ -33,7 +33,7 @@ title: Rubyclerks, this is what it is
       <br/>
       Products may have key-value <b>attributes</b>, again mostly for displaying, and reporting. 
       <br/>
-      A <b>Product line</b>may be created to group similar products to be displayed as one.
+      A <b>Product line</b> may be created to group similar products to be displayed as one.
 	</div>
 </div>
 
@@ -78,20 +78,19 @@ title: Rubyclerks, this is what it is
 	</div>
 
 	<div class="span10">
-		<h2>Purchase Orders - you buy</h2>
+		<h2>Purchases - you buy</h2>
 		<p>
       Rubyclerk assumes that you buy your products from <b>suppliers</b>, and each product 
-      is (usually) supplied by one supplier. So this information may be stored int he product and
-      used to automatically generated purchase orders when stock is low.
+      is (usually) supplied by one supplier. So this information may be stored in the product and
+      used to automatically generated purchases when stock is low.
       <br/>
-      The  <b>states</b> of a purchase order are simpler: it is <b>created</b> immediately 
+      The  <b>states</b> of a purchase are simpler: it is <b>created</b> immediately 
       upon creation and unlike an order may be edited later. Until it is 
       <b>received</b>, at which point the items in it will be added to your stock.
       <br/>
       This is the normal way for buisnesses to receive goods and thus RubyClerks keeps track of
-      the stock this way. You may also change stock values directly, but in that case it is not 
-      recorded, and so your reporting will not be acurate. Usually this is only done during 
-      inventory. 
+      the stock this way. You may also change stock values directly (or by doing inventory), 
+      but in that case change is not recorded, and so your reporting will not be acurate. 
     </p>
   </p>
 	</div>
@@ -102,7 +101,7 @@ title: Rubyclerks, this is what it is
 		<h2>Configuration</h2>
 		<p>
       <br/>
-      For simplicity RubyClerks treats some parts of the system as configuration, these are maily:
+      For simplicity RubyClerks treats some parts of the system as configuration (not models), these are maily:
       <br/> 
       The list of <b>Countries</b> that you ship to.
       <br/> 
