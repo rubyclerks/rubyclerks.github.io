@@ -1,7 +1,7 @@
 rubyclerks.github.io
 ====================
 
-Rubyclerks webpage is done with github pages: https://help.github.com/categories/20/articles
+RubyClerks webpage is done with github pages: https://help.github.com/categories/20/articles
 
 Contribute
 -----------
