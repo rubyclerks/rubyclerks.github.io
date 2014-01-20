@@ -24,7 +24,7 @@ layout: site
 		<div>
   		<ul class="nav nav-list">
         {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }}</a>
+        <li><a href="{{ post.url }}">{{ post.title }} <small><small>{{ post.date | date: "%d.%m.%y"  }} </small></small></a>
 </li>
       {% endfor %}
   		</ul>
