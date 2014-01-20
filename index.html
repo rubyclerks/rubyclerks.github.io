@@ -17,7 +17,7 @@ title: RubyClerks, the help you need to run your shop
     <h2 class="center green white">Small business solution</h2>
     <div>
       <p>
-        RubyClerks is a system to manage a <em>small business</em>.
+        RubyClerks is a system to manage a <b>small business</b>.
         After using other systems for a long time, RubyClerks was written by a small business owner
         to provide exactly what a small business needs, in an understandable concise form.
       </p>
@@ -41,10 +41,10 @@ title: RubyClerks, the help you need to run your shop
   <div class="span6">
     <h2 class="center pink white">Simple but Comprehensive</h2>
     <div>
-      <p>Simple is a much misunderstood concept often mistaken for simplistic. 
+      <p><b>Simple</b> is a much misunderstood concept often mistaken for simplistic. 
           Simple means lack of complication, unnecessary clutter. 
           RubyClerks sticks to what a small business needs and lets others or modules extend this.</p>
-      <p> Comprehensive means dealing with everything necessary, and this off course only sensible within 
+      <p> <b>Comprehensive</b> means dealing with everything necessary, and this off course only sensible within 
           a scope. Our scope is the small business. Small is a few thousand products and max tens of 
           thousand of orders a year.
       </p>
@@ -73,10 +73,15 @@ title: RubyClerks, the help you need to run your shop
       The system assumes you have only one storage and the way you add stock is by receiving
       your own orders. Thus you can can create purchase orders from suppliers and receive them.
     </p>
+    <p>
+       if your products have barcodes, either ean13 or your own, you can use admin side as a POS 
+       (point of sales). So you or your sales person uses a bar scanner and you can print a receipt.
+       The "normal" checkout happens with just one click (printing), a minimal transaction is one scan one click.
+    </p>
   </div>
 
   <div class="span4">
-    <h2 class="lightblue white center">Online Clerk</h2>
+    <h2 class="lightblue white center">Sales Clerk</h2>
     <p>
       This is the basis for your web-shop. Basic functionality around products, cart and
       login is included. But not payment or advanced shipping. Also this is meant to be used in
@@ -84,7 +89,7 @@ title: RubyClerks, the help you need to run your shop
     </p>
     <p>
       In technical terms, the office clerk is a gem, a rails engine actually,
-      but the online clerk a repository. You (a developer) are meant to clone the online clerk
+      but the sales clerk a repository. You (a developer) are meant to clone the sales clerk
       and change the appearance and workings to how you want your store to look and feel.
       The office clerk is something that should stay as is and hopefully benefit from improvements
       that you and others make.
@@ -92,23 +97,19 @@ title: RubyClerks, the help you need to run your shop
   </div>
 
   <div class="span4">
-    <h2 class="lightblue white center">Sales clerk and more</h2>
+    <h2 class="lightblue white center">Accounting clerk and more</h2>
     <p>
-      The sales clerk is a point of sales system. It provides
-      a fast clean checkout with external payment and without shipment.
+      The Accounting or Reporting clerk, provides basic reporting to aid a shop owner in purchasing.
+      Graphs of sales are shown and can be used to explore the sales and gain insight about customers.
     </p>
     <p>
-      It is assumed that your products have barcodes, either ean13 or your own. Also it is assumed
-       that your sales person uses a bar scanner and that you will print a receipt.
-       The "normal" checkout happens with just one click (printing).
+      Graphs let you "drill" down, so you can explore by <b>Time</b>, <b>Category</b>,<b>Supplier</b>
+      or <b>any combination</b>. While for example retricting to a certain Supplier, cou can choose to 
+      view sales by Catgory, or even by Product.
     </p>
     <p>
-      If your products do not have barcodes, a barcode generator is included so you can print
-      your own codes.
-    </p>
-    <p>
-      Additionally a Reporting clerk, provides basic reporting to aid a shop owner in purchasing.
-      Hopefully many more modules will provide extra functionality in the future.
+      Hopefully many more modules will provide extra functionality in the future. 
+      Immediate plans include stripe payment.
     </p>
   </div>
 </div>
