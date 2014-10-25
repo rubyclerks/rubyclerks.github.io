@@ -263,7 +263,7 @@ hr {
 }
 
 .scrolltotop {
-  background: url("../img/scroll-up.png") no-repeat scroll center top transparent;
+  background: url("/assets/images/scroll-up.png") no-repeat scroll center top transparent;
   display: none;
   height: 42px;
   position: fixed;
