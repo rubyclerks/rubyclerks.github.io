@@ -4,30 +4,24 @@ layout: site
 
 <!-- story -->
 <div class="row vspace10">
-	<div class="span12 center">
-		<h2><span>News, and other writings</span></h2>
-		<p>Not everything fitted into the static text, so here it is</p>
-	</div>
+    <div class="col-md-12 center">
+        	<h2><span>News, and other writings</span></h2>
+        <p>Not everything fitted into the static text, so here it is</p>
+    </div>
 </div>
-
-
 <div class="row vspace10">
-	<div class="span10">
-		<h2 class="center">{{page.title}}</h2>
-		<div>
-  	  <h5 class="center">Written by {{page.author}} on {{page.date | date_to_string}}.</h5>
-      {{content}}
-		</div>
-	</div>
-	<div class="span2">
-		<h2 class="center">Older</h2>
-		<div>
-  		<ul class="nav nav-list">
-        {% for post in site.posts %}
-        <li><a href="{{ post.url }}">{{ post.title }} <small><small>{{ post.date | date: "%d.%m.%y"  }} </small></small></a>
-</li>
-      {% endfor %}
-  		</ul>
-		</div>
-	</div>
+    <div class="col-md-10">
+        	<h2 class="center">{{page.title}}</h2>
+        <div>
+             <h5 class="center">Written by {{page.author}} on {{page.date | date_to_string}}.</h5>
+{{content}}</div>
+    </div>
+    <div class="col-md-2">
+        	<h2 class="center">Older</h2>
+        <div>
+            <ul class="nav ">{% for post in site.posts %}
+                <li><a href="{{ post.url }}">{{ post.title }} <small><small>{{ post.date | date: "%d.%m.%y"  }} </small></small></a>
+                </li>{% endfor %}</ul>
+        </div>
+    </div>
 </div>
