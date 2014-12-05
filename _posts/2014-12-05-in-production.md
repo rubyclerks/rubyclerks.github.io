@@ -31,6 +31,7 @@ To name but a few of the new features:
 - better search/view for what is online and only showing products with stock online.
 - completely extenalized independent xx_cerks, for printing/accounting cane be plugged. Also gives extension developers a start on how to
 - off course lots and lots of "little" things, one of which just comes to mind: ssl config option
+- confirmation and other mails with admin buttons to resend
 
 I did go over the spree migration again for the second shop, but the payment is still open (we use bank transfer)
 
