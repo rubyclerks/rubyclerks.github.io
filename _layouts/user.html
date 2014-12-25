@@ -6,16 +6,20 @@ layout: site
     <div class="col-md-10">
       <h2 class="center">{{page.title}}</h2>
     <div>
-    <h5 class="center">Written by {{page.author}} on {{page.date | date_to_string}}.</h5>
   {{content}}
   </div>
 </div>
 <div class="col-md-2">
-  <h2 class="center">Older</h2>
+  <h2 class="center">Contents</h2>
   <div>
-    <ul class="nav ">{% for post in site.posts %}
-      <li><a href="{{ post.url }}">{{ post.title }} 
-        <small><small>{{ post.date | date: "%d.%m.%y"  }} </small></small></a>
-      </li>{% endfor %}</ul>
+    <ul class="nav ">
+      <li>        <a href="index.html">Introduction</a>      </li>
+      <li>        <a href="products.html">Products</a>      </li>
+      <li>        <a href="suppliers.html">Suppliers</a>      </li>
+      <li>        <a href="categories.html">Categories</a>      </li>
+      <li>        <a href="orders.html">Orders</a>      </li>
+      <li>        <a href="purchases.html">Purchases</a>      </li>
+      <li>        <a href="shop.html">Shop</a>      </li>
+    </ul>
   </div>
 </div>
