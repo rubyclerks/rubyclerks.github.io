@@ -100,3 +100,5 @@ they are links work in seperate tabs too.
 
 Finally the Cancel button will cancel the current search and basically act like the Products menu item, returning you to the
 unfiltered list.
+
+[Prev: Introduction](index.html)    [Next: Product Lines](product_lines.html)
