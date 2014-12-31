@@ -32,4 +32,4 @@ When, while editing a category, one changes it's online status, products of that
 This is meant to help bring larger numbers of products online quickly and save work. But one must be aware not to
 inadvertantly make products online that way.
 
-[Prev: Suppliers](suppliers.html)        [Next: Baskets](baskets.html)    
+[Prev: Suppliers](07_suppliers.html)        [Next: Shop](11_shop.html)    
