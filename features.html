@@ -28,9 +28,7 @@ title: RubyClerks, this is what it is
         <p>The Product is what a company is all about. You buy or produce it, then
             you sell it and that is what you make your money from.
             <br />RubyClerks model of the Product is simple but not overly so. A product
-            has a <b>name,
-
-      description, picture and price </b> for display. A <b> weight </b> for
+            has a <b>name, description, picture and price </b> for display. A <b> weight </b> for
             shipping and a <b>tax rate</b> because you have to show the tax by law (and
             it keeps changing).
             <br />A barcode, usually <b>ean13</b> is what identifies a product uniquely and
@@ -47,14 +45,14 @@ title: RubyClerks, this is what it is
 <div class="row vspace20">
     <div class="col-md-10">
          <h2>Orders - you sell</h2>
-        <p>RubyClerks is very flexible in how you create orders, which are mostly
+        <p>RubyClerks is very flexible in how you create orders, which are at core
             just a list of <b>items</b>. An item refers to a product at a certain time.
             You can think of an item as a physical entity. It copies the price and
             tax attributes so they never change later.
             <br />The <b>states</b> of an order reflect the lifecycle it goes through. When
-            you or a customer has finished creating the order it is <b>received</b>.
+            you or a customer has finished creating the order it is <b>ordered</b>.
             <br
-            />Next it bay be <b>shipped or paid</b>, there is no restriction on which
+            />Next it may be <b>shipped or paid</b>, there is no restriction on which
             of those comes first.
             <br />An order is <b>completed</b>, when it has been paid and shipped. Finally
             an order may be <b>canceled</b> by you or the customer any time after it
@@ -78,7 +76,7 @@ title: RubyClerks, this is what it is
     <div class="col-md-10">
          <h2>Purchases - you buy</h2>
         <p>RubyClerks assumes that you buy your products from <b>suppliers</b>, and
-            each product is (usually) supplied by one supplier. So this information
+            each product is supplied by one supplier. So this information
             may be stored in the product and used to automatically generated purchases
             when stock is low.
             <br />The <b>states</b> of a purchase are simpler: it is <b>created</b> immediately
@@ -94,19 +92,16 @@ title: RubyClerks, this is what it is
         <p>
             <br />For simplicity RubyClerks treats some parts of the system as configuration
             (not models), these are mainly:
-            <br />The list of <b>Countries</b> that you ship to and the tax you pay for shipments.
-            <br
-            />The <b>Tax Rates</b> that you are subject too. Tax rates are taken to be
-            a percentage of the product price (vat or european style).
+            <br/>The <b>default tax rates</b> that you are subject too. Tax rates are taken to be
+            a percentage of the product price (vat or european style) and may change per product.
             <br />Your <b>payment methods</b>. These are backed by code, only simple cash
             is built in.
             <br />The list of <b>shipping methods</b> you offer. Their names, rates and the
             code they are backed by. RubyClerks provides Postal service style shipping,
             by weight.
             <br />Unlike other systems RubyClerks does not store Configuration in the database,
-            but in configuration files. Those are assumed to be under revision control
-            and this system allows for much easier testing and evolution. It also removes
-            such fantasy that you could set up a payment method with a few clicks.</p>
+            but in a configuration file. That is assumed to be under revision control
+            and this system allows for much easier testing and evolution.</p>
     </div>
     <div class="col-md-2">
          <h2>&nbsp;</h2>
