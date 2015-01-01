@@ -3,7 +3,7 @@ layout: news
 author: Torsten
 ---
 
-Yes, it done. We're ready to receive [Orders](http://auringostaitaan.fi)
+Yes, it's done. We're ready to receive [Orders](http://auringostaitaan.fi)
 
 ## Online
 
