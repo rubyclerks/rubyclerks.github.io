@@ -7,4 +7,4 @@ author: Torsten
 
 Not done, next done is Products
 
-[Prev: Orders](03_orders.html)    [Next: Products](05_products.html)
+[**<- Prev** Orders](03_orders.html)    [**Next ->** Products](05_products.html)

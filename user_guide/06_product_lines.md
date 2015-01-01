@@ -73,4 +73,4 @@ In the online shop, product items do not have their own page, and thus also no l
 the product line page. Also an items name is the concatination of the lines name and it's own. On the Lines shop page, 
 Product Item summaries are used to further describe items and their differences.
 
-[Prev: Products](05_products.html)    [Next: Suppliers](07_suppliers.html)
+[**<- Prev** Products](05_products.html)    [**Next ->** Suppliers](07_suppliers.html)

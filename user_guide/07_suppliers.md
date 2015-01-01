@@ -19,4 +19,4 @@ Also the page to view a supplier will list all products of that supplier.
 Suppliers may not be deleted currently. Though without products this would theoretically be possible. 
 Currenly we suggest to reuse such a case if a new should be created, ie edit it.
 
-[Prev: Product Lines](06_product_lines.html)        [Next: Categories](08_categories.html)    
+[**<- Prev** Product Lines](06_product_lines.html)        [**Next ->** Categories](08_categories.html)    

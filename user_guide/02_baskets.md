@@ -27,13 +27,13 @@ The list view also contains the products in the baskets and the list may be sear
 ## Point of Sale
 
 From an administration view, editing baskets is one of the most frequent actions. The screen is therefore streamlined
-and may efficiently be used as a Pont of Sale (POS) screen.
+and may efficiently be used as a Point of Sale (POS) screen.
 
 ![Basket edit](images/pos.png)
 
 The ean entry field has the focus immediately (no clicking needed) and may be used to add a product by ean or name.
 If the name search does not result in a unique hit, a product list is shown to allow further search refinement. 
-When a barcode scanner is used with either ean or self-printed codes, the search find a single product and adds it to
+When a barcode scanner is used with either ean or self-printed codes, the search finds a single product and adds it to
 the basket with the products price.
 
 Both price and quantity of each product may be adjusted and updated with the update cart button.
@@ -41,7 +41,7 @@ Both price and quantity of each product may be adjusted and updated with the upd
 The discount shows the difference of the current to the products price in percent. The dropdown allows for immediate
 discounting in 5 percent steps.
 
-The discount on the top right allows for discount all products at the same time, also in 5% steps.
+The discount on the top right allows for discounting all products at the same time, also in 5% steps.
 
 Finally the delete and add links decrease or increase the items quantity by one for the most common use case.
 
@@ -70,4 +70,4 @@ on page view, thus creating a one click checkout.
 
 Destroy is only present for newly created baskets that are not used by an Order or Purchase.
 
-[Prev: Introduction](01_index.html)    [Next: Orders](03_orders.html)
+[**<- Prev** Introduction](01_index.html)    [**Next ->** Orders](03_orders.html)

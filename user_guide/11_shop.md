@@ -5,4 +5,4 @@ author: Torsten
 
 ## Online shop
 
-[Prev: Categories](08_categories.html)
+[**<- Prev** Categories](08_categories.html)

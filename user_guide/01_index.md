@@ -54,4 +54,4 @@ but very useful for a usual buisness. We shall descibe the three standard ones:
 - AccountantClerk  (reporting)
 - PrintClerk and Postclerk for invoicing and shipment
 
-Prev: none    [Next: Baskets](02_baskets.html)
+**<- Prev** none    [**Next ->** Baskets](02_baskets.html)
