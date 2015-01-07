@@ -26,6 +26,7 @@ specifically don't do that to leave you the choice of database. Ie rubyclerks sh
 To create views rails standard uses erb. While erb is easy for people coming from html, it is unneccessarily cluttered.
 We use [haml](http://haml.info/) for all views. Engine views may be overriden in an app, and this may be done with any 
 template format, ie an erb template may override a haml one.
+Haml's style friend is **sass**, and as a basis **bootstrap** is used.
 
 #### Good testing
 
