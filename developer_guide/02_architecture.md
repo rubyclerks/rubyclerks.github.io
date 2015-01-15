@@ -16,7 +16,7 @@ app and create a different user experience or copy/clone the SalesClerk and star
 
 SalesClerk contains all shop views and the ShopController, not much else. The admin backend is in OfficeClerk. Rails's
 modular engines let you create and use as many other Engines as you like and they all use defined ways to modify
-and extend your app. Especially in the [entension chapter] we'll go into how this happens.
+and extend your app. Especially in the [entension chapter](/developer_guide/06_extensions.html) we'll go into how this happens.
 
 The rest of the document is concerned mainly with OfficeClerk, and if not familiar with Engines one may think of it as
 a rails app, packaged as a gem.

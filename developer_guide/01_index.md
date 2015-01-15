@@ -41,7 +41,7 @@ system, ie how different clerks work together. Then a quick look at the **models
 Next two chapters on the main topics of **index** and **edit** pages, and then an introduction on how to build your 
 own clerk, an **extension**.
 
-The chapter on **testing** will cover extension testing, and last but not least an **installation** guide.
+The chapter on **testing** will cover extension testing too, and last but not least an **installation** guide.
 
 
    [**Next ->** Architecture](02_architecture.html)
